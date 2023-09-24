@@ -1,64 +1,143 @@
 import React, { useState } from "react";
-import "./FrontPage.css"; // Import your CSS file
+import "./FrontPage.css";
+import PrefButton from "../Components/PrefButton";
 
 function FrontPage() {
-  // State to track the selected taste profiles
-  const [selectedProfiles, setSelectedProfiles] = useState({
-    spicy: false,
-    savory: false,
-    sweet: false,
-    sour: false,
-    bitter: false,
+  // State to store the button states
+  const [buttonStates, setButtonStates] = useState({
+    Chinese: 0,
+    Indian: 0,
+    Malay: 0,
+    Spicy: 0,
+    Savory: 0,
+    Sweet: 0,
+    Sour: 0,
+    Bitter: 0,
+    Meat: 0,
+    Seafood: 0,
+    Rice: 0,
+    Noodles: 0,
+    Dessert: 0,
+    Snacks: 0,
   });
 
-  // Function to toggle the selected state of a taste profile
-  const toggleProfile = (profile) => {
-    setSelectedProfiles({
-      ...selectedProfiles,
-      [profile]: !selectedProfiles[profile],
-    });
+  // Function to handle "Get Recommendations" button click
+  const handleGetRecommendations = () => {
+    // Create an array with the button states
+    const buttonStateArray = [
+      buttonStates.Spicy,
+      buttonStates.Savory,
+      buttonStates.Sweet,
+      buttonStates.Sour,
+      buttonStates.Bitter,
+      buttonStates.Meat,
+      buttonStates.Seafood,
+      buttonStates.Rice,
+      buttonStates.Noodles,
+      buttonStates.Dessert,
+      buttonStates.Snacks,
+      buttonStates.Chinese,
+      buttonStates.Indian,
+      buttonStates.Malay,
+    ];
+
+    // Use buttonStateArray for further processing (e.g., sending to the server)
+    console.log(buttonStateArray);
+    console.log("imhere");
   };
 
   return (
     <div className="front-page">
       <h1 className="title">BespokeBiteSG</h1>
-      <p>I am looking for...</p>
+      <h3>I am looking for...</h3>
       <div className="taste-profiles">
-        <button
-          className={`taste-button ${selectedProfiles.spicy ? "selected" : ""}`}
-          onClick={() => toggleProfile("spicy")}
-        >
-          Spicy
-        </button>
-        <button
-          className={`taste-button ${
-            selectedProfiles.savory ? "selected" : ""
-          }`}
-          onClick={() => toggleProfile("savory")}
-        >
-          Savory
-        </button>
-        <button
-          className={`taste-button ${selectedProfiles.sweet ? "selected" : ""}`}
-          onClick={() => toggleProfile("sweet")}
-        >
-          Sweet
-        </button>
-        <button
-          className={`taste-button ${selectedProfiles.sour ? "selected" : ""}`}
-          onClick={() => toggleProfile("sour")}
-        >
-          Sour
-        </button>
-        <button
-          className={`taste-button ${
-            selectedProfiles.bitter ? "selected" : ""
-          }`}
-          onClick={() => toggleProfile("bitter")}
-        >
-          Bitter
-        </button>
+        <div className="button-row">
+          <PrefButton
+            name="Chinese"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Indian"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Malay"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+        </div>
+
+        <div className="button-row">
+          <PrefButton
+            name="Spicy"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Savory"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Sweet"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Sour"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Bitter"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+        </div>
+
+        <div className="button-row">
+          <PrefButton
+            name="Meat"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Seafood"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Rice"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Noodles"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Dessert"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+          <PrefButton
+            name="Snacks"
+            buttonStates={buttonStates}
+            setButtonStates={setButtonStates}
+          />
+        </div>
       </div>
+
+      {/* "Get Recommendations" button */}
+      <button
+        className="get-recommendations-button"
+        onClick={handleGetRecommendations}
+      >
+        Get Recommendations
+      </button>
     </div>
   );
 }

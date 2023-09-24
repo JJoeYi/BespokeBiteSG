@@ -1,0 +1,17 @@
+/* Add your styles for the PrefButton component here */
+.pref-button {
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 2%;
+  /* Add any other styles specific to the PrefButton component */
+}
+
+.pref-button.selected {
+  background-color: #007bff; /* Change to your desired selected color */
+  color: white;
+}
