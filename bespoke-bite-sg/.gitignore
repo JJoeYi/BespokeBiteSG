@@ -1,0 +1,27 @@
+# Node.js
+/node_modules
+
+# Build files
+/build
+/dist
+
+# Dependency lock files
+/yarn.lock
+/package-lock.json
+
+# Editor files
+/.vscode
+/.idea
+
+# Compiled Python files
+/__pycache__
+
+# Local development environment files
+/.env
+
+# macOS system files
+.DS_Store
+
+# VSCode
+.vscode
+
