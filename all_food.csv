@@ -1,0 +1,78 @@
+Name of Food,Nationality,Spicy,Savory,Sweet,Sour,Bitter,Meat,Seafood,Rice,Noodles,Dessert,Snacks
+Bak kut teh,Chinese,1,1,0,0,0,1,0,0,0,0,0
+Beef kway teow,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Bak chang,Chinese,0,1,0,0,0,1,0,1,0,0,0
+Bak Chor Mee,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Ban mian,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Chai tow kway,Chinese,1,1,0,0,0,0,0,0,0,0,1
+Char kway teow,Chinese,1,1,0,0,0,0,1,0,1,0,0
+Char siu,Chinese,0,1,1,0,0,1,0,0,0,0,0
+Chicken noodles,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Chwee kueh,Chinese,0,0,1,0,0,0,0,0,0,1,0
+Crab bee hoon,Chinese,0,1,0,0,0,0,1,0,1,0,0
+Drunken prawns,Chinese,0,1,0,0,0,0,1,0,0,0,0
+Duck rice,Chinese,0,1,0,0,0,1,0,1,0,0,0
+Fish ball noodles,Chinese,0,1,0,0,0,0,1,0,1,0,0
+Fish soup bee hoon,Chinese,0,1,0,0,0,0,1,0,1,0,0
+Frog Leg porridge,Chinese,0,1,0,0,0,1,0,0,0,1,0
+Hae mee,Chinese,1,1,0,0,0,1,1,0,1,0,0
+Hainanese chicken rice,Chinese,0,1,0,0,0,1,0,1,0,0,0
+Hainanese curry rice,Chinese,1,1,0,0,0,1,0,1,0,0,0
+Har cheong gai,Chinese,1,1,0,0,0,1,0,0,0,0,0
+Hokkien mee,Chinese,1,1,0,0,0,1,1,0,1,0,0
+Ham chim peng,Chinese,0,0,1,0,0,0,0,0,0,1,1
+Kaya toast,Chinese,0,0,1,0,0,0,0,0,0,1,1
+Kway chap,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Mee pok,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Min chiang kueh,Chinese,0,0,1,0,0,0,0,0,0,1,1
+Oyster omelette,Chinese,0,1,0,0,0,0,1,0,0,0,0
+Pig's brain soup,Chinese,0,1,0,0,0,1,0,0,0,1,0
+Pig fallopian tubes,Chinese,1,1,0,0,0,1,0,0,0,0,0
+Pig's organ soup,Chinese,0,1,0,0,0,1,0,0,0,1,0
+Pig's trotters,Chinese,0,1,0,0,0,1,0,0,0,0,0
+Popiah,Chinese,0,1,0,0,0,1,0,0,0,0,1
+Shredded chicken noodles,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Sliced fish soup,Chinese,0,1,0,0,0,0,1,0,0,1,0
+Soon kway,Chinese,0,1,0,0,0,0,0,0,0,0,1
+Tau huay,Chinese,0,0,1,0,0,0,0,0,0,1,0
+Teochew porridge,Chinese,0,1,0,0,0,1,0,1,0,0,0
+Turtle soup,Chinese,0,1,0,0,0,1,0,0,0,1,0
+Wonton noodles,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Yong tau foo,Chinese,0,1,0,0,0,1,0,0,1,0,0
+Youtiao,Chinese,0,0,1,0,0,0,0,0,0,0,1
+Zhaliang,Chinese,0,1,0,0,0,0,0,0,1,0,0
+Zongzi,Chinese,0,1,0,0,0,1,0,1,0,0,0
+Chilli Crab,Chinese,1,1,0,0,0,0,1,0,0,0,0
+Roti prata,Indian,0,1,0,0,0,0,0,0,0,0,1
+Biryani,Indian,1,1,0,0,0,1,0,1,0,0,0
+Butter chicken,Indian,1,1,0,0,0,1,0,0,0,0,0
+Chapati,Indian,0,1,0,0,0,0,0,0,0,0,1
+Chicken tikka masala,Indian,1,1,0,0,0,1,0,0,0,0,0
+Curry puff,Indian,1,1,0,0,0,1,0,0,0,0,1
+Dosai,Indian,0,1,0,0,0,0,0,0,0,0,1
+Fish head curry,Indian,1,1,0,0,0,0,1,0,0,0,0
+Murtabak,Indian,1,1,0,0,0,1,0,0,0,0,1
+Nasi kandar,Indian,1,1,0,0,0,1,0,1,0,0,0
+Tandoori chicken,Indian,1,1,0,0,0,1,0,0,0,0,0
+Thosai,Indian,0,1,0,0,0,0,0,0,0,0,1
+Ayam penyet,Malay,1,1,0,0,0,1,0,1,0,0,0
+Bakso,Malay,0,1,0,0,0,1,0,0,1,0,0
+Gado-gado,Malay,1,1,0,0,0,0,0,0,0,0,1
+Ikan bakar,Malay,1,1,0,0,0,0,1,0,0,0,0
+Indomie,Malay,1,1,0,0,0,0,0,0,1,0,0
+Kerak telor,Malay,1,1,0,0,0,1,0,0,0,0,1
+Ketoprak,Malay,1,1,0,0,0,0,0,0,1,0,0
+Nasi goreng,Malay,1,1,0,0,0,1,0,1,0,0,0
+Nasi padang,Malay,1,1,0,0,0,1,0,1,0,0,0
+Nasi uduk,Malay,0,1,0,0,0,1,0,1,0,0,0
+Otak-otak,Malay,1,1,0,0,0,0,1,0,0,0,1
+Pempek,Malay,1,1,0,0,0,1,1,0,0,0,1
+Rendang,Malay,1,1,0,0,0,1,0,0,0,0,0
+Sate,Malay,1,1,0,0,0,1,0,0,0,0,0
+Soto,Malay,1,1,0,0,0,1,0,0,0,1,0
+Tahu gejrot,Malay,1,1,0,0,0,0,0,0,0,0,1
+Tahu goreng,Malay,1,1,0,0,0,0,0,0,0,0,1
+Tempeh,Malay,0,1,0,0,0,0,0,0,0,0,1
+Laksa,Malay,1,1,0,0,0,1,1,0,1,0,0
+Satay,Malay,1,1,0,0,0,1,0,0,0,0,1
+Ice Kacang,Malay,0,0,1,0,0,0,0,0,0,1,0
