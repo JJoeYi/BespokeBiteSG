@@ -22,7 +22,7 @@ function FrontPage() {
   });
 
   // Function to handle "Get Recommendations" button click
-  const handleGetRecommendations = () => {
+  const handleGetRecommendations = async () => {
     // Create an array with the button states
     const buttonStateArray = [
       buttonStates.Spicy,
@@ -41,10 +41,22 @@ function FrontPage() {
       buttonStates.Malay,
     ];
 
-    // Use buttonStateArray for further processing (e.g., sending to the server)
     console.log(buttonStateArray);
-    console.log("imhere");
+
+    const response = await fetch(
+      "http://jjoeyi.pythonanywhere.com/recommend_kmeans",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ profiles: buttonStateArray }),
+      }
+    );
+
+    const data = await response.json();
+    setRecommendations(data);
   };
+
+  const [recommendations, setRecommendations] = useState([]);
 
   return (
     <div className="front-page">
@@ -138,6 +150,11 @@ function FrontPage() {
       >
         Get Recommendations
       </button>
+      <ul>
+        {recommendations.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 }
